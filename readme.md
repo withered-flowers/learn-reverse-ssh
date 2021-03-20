@@ -138,7 +138,7 @@ ngrok (**ngrok**)
    `ngrok tcp <port_ssh_server_yang_ada_di_komputer_lokal>, dengan contoh sesuai di atas maka yang
    diketikkan adalah
 ```shell
-ngrok tcp 22
+> ngrok tcp 22
 ```
 1. Setelah mengetik ini, ngrok akan mengekspose port 22 pada komputer local, mengikatnya dengan
    subdomain dan port yang diberikan oleh ngrok. dengan contoh sesuai di atas, maka
@@ -154,7 +154,7 @@ ngrok tcp 22
    contoh sesuai di atas maka yang diketikkan adalah
 ```shell
 # buka port 3000 untuk tersambung ke bastion port 22
-ssh -R 3000:localhost:22 withered-flowers@xxx.subdomain.ngrok.io -p 54321
+> ssh -R 3000:localhost:22 withered-flowers@xxx.subdomain.ngrok.io -p 54321
 ```
 1. Setelah ini maka akan diminta untuk memasukkan password untuk user **withered-flowers** yaitu 
    **only-for-testing-purpose**
@@ -168,7 +168,7 @@ ssh -R 3000:localhost:22 withered-flowers@xxx.subdomain.ngrok.io -p 54321
    `ssh <akun_bastion>@<ip_local> -p <port_yang_dibuka_untuk_koneksi_remote>`, dengan contoh sesuai
    di atas maka yang diketikkan adalah
 ```shell
-ssh student@localhost -p 3000
+> ssh student@localhost -p 3000
 ```
 1. Setelah ini maka akan diminta untuk memasukkan password untuk user **student** yaitu **student**
    juga.
