@@ -154,7 +154,7 @@ ngrok (**ngrok**)
    contoh sesuai di atas maka yang diketikkan adalah
 ```shell
 # buka port 3000 untuk tersambung ke bastion port 22
-> ssh -R 3000:localhost:22 withered-flowers@xxx.subdomain.ngrok.io -p 54321
+> ssh -R 3000:localhost:22 withered-flowers@xxx.subdomain.ngrok.com -p 54321
 ```
 1. Setelah ini maka akan diminta untuk memasukkan password untuk user **withered-flowers** yaitu 
    **only-for-testing-purpose**
